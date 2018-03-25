@@ -73,3 +73,22 @@ while entered != 'stop':
     print(entered)
     entered = input('Enter stop to quit')
 
+USE WHILE INSTEAD OF if
+WHILE is using the same logic as IF when deciding whether to continue processing or not`
+# How to rewrite following code with with while
+hour = 12
+if hour < 12:
+    print 'Good morning'
+
+3-12. Rewrite following code with while
+hour = 12
+if hour < 12:
+    print ('Good morning')
+elif hour < 17:
+    print ('Good afternoon')
+elif hour < 21:
+    print ('Good evening')
+else:
+    print ('Good night')
+
+3-13. Can this be rewritten with FOR loop and Why?

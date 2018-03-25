@@ -1,0 +1,3 @@
+PROBLEMS
+1. Calculate the amount of sale where 55 books were sold for $39.99 each.
+2. Calculate the average sale for week in which sales were made for $235.88, $267.95, $301.77, $197.88, and $278.65.
