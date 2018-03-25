@@ -1,0 +1,75 @@
+FOR LOOPS
+
+Why?
+To repeat the same thing multiple (limited) times.
+
+Example:
+# print numbers from 1 to 10 included (or 11 excluded)
+for number in range(1,11):
+    print (number)
+
+# if first value is 0 it don't then it can be omitted
+for number in range(11):
+    print (number)
+
+# print every second number (odd numbers)
+for number in range(1,11,2):
+    print (number)
+
+# combine with else to print odd numbers
+for number in range(1,11):
+    if (number % 2 == 1):
+        print (number)
+
+# use continue to skip the rest of the block
+for number in range(1,11):
+    if (number % 2 == 0):
+        continue
+    print (number)
+
+# find first number that divides by 5
+for number in range(1,11):
+    if (number % 5 == 0):
+        print (number)
+        break
+
+PROBLEMS
+3-1. Print numbers that divide by 3 without remainder in a range from 25 to 50 included
+3-2. Find a sum of all numbers in a range from 1 to 99 (included)
+3-3. Find an average of all numbers in a range from 1 to 99 (included)
+3-4. Find the smallest number that divides by 3 and 11 in a range from 500 and 600
+3-5. Find the largest number that divides by 3 and 11 in a range from 500 and 600
+
+WHILE LOOPS
+# print numbers from 1 to 10 included (or 11 excluded)
+number = 1
+while number < 11:
+    print (number)
+    number += 1
+
+# infinite loops
+# what happens in this case?
+number = 1
+while number < 11:
+    print (number)
+number += 1
+
+PROBLEMS
+Rewrite for loop as while loop
+3-6. if first value is 0 it don't then it can be omitted
+3-7. print every second number (odd numbers)
+3-8 combine with else to print odd numbers
+3-9 use continue to skip the rest of the block
+3-10 find first number that divides by 5 in a range from 1 to 10 included
+3-11 find factorial of 10!
+
+POWER OF CONDITIONAL LOOPS
+Comes when condition is not known before hand
+
+# Use input function to get input from user
+# echo input until user enters stop
+entered = input('Enter stop to quit')
+while entered != 'stop':
+    print(entered)
+    entered = input('Enter stop to quit')
+
